@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  background-color: #eee; }
+
+.container {
+  margin: 0 auto;
+  background: #eee;
+  width: 600px; }
+
+[class*="blok"] {
+  width: 200px;
+  height: 200px;
+  float: left;
+  text-align: center;
+  display: table;
+  border-radius: 40px; }
+  [class*="blok"] h2 {
+    display: table-cell;
+    vertical-align: middle; }
+
+.blok-1 {
+  background: #3498db; }
+
+.blok-2 {
+  background: #2ecc71; }
+
+.blok-3 {
+  background: #d35400; }
+
+/*# sourceMappingURL=style.css.map */
